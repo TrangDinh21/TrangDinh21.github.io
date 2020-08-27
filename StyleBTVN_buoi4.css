@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: black;
+    display: flex;
+    list-style-type: none;
+    position: sticky;
+    top:0;
+}
+.menuli{
+    padding:  15px 25px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+}
+.menuli a{
+    color: white;
+    text-decoration: none;    
+}
+li:hover{
+    background-color: #CBCBCB;   
+}
+li:hover a{
+    color: black;
+}
+.submenu{
+    display: none;
+    list-style: none;
+    width: 150%;    
+}
+.menuli:hover .submenu{
+    display: block;
+    background-color: white;    
+    position: absolute;
+    top:48px;
+    left:0;
+}
+.submenu li{
+    padding: 10px;
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+}
+.lup{
+    position: absolute;
+    right: 0;
+    color:white;
+}
+.lup:hover{
+    background-color: red;
+    color:white;
+}
+.anh1{
+    background-image: url("https://www.w3schools.com/w3images/la.jpg?fbclid=IwAR3gyH0l3WZf59LLCBriaVcyAENcsr8u2yJb2SvQdxTxEkia2ONutHAc7-U");
+    height:650px;     
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.anh1_text{
+    color: white;
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif;   
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+#theBand{
+    width:60%;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px 0;
+}
+.THE_BAND{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+.WeLove{
+    color: gray;
+    text-align: center;
+    font-style: italic;
+    padding:30px 0;
+}
+.anh2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+.anh21{
+    width:20%;
+    padding: 20px;
+}
+.anh21 img{
+    width: 90%;
+}
+#TOUR{
+    background-color: black;
+    margin: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+.so3{
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 45%; 
+    
+}
+.khung3{
+    width: 60%;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 15px;
+}
+.khung313{
+    padding: 10px;
+    color:#595959;
+}
+.khung32{
+    padding: 10px;
+    color:#595959;
+    border-top: 1px solid #595959;
+    border-bottom: 1px solid #595959;
+}
+.soldOut{
+    background-color: red;
+    color:white;
+    padding:3px;
+    margin-left: 20px;
+}
+.khungcuoi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;    
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.anh3{    
+    width: 32%;
+    background-color: white;
+}
+.anh3anh{
+    background-color: black;
+    height: 200px;
+}
+.anh3anh img:hover{
+    opacity: 50%;
+}
+.anh3 img{
+    width: 100%;
+    height: 200px;
+    margin: 0;
+}
+.anh3Chu{
+    margin: 0; 
+    padding: 10px;
+    line-height: 20px;
+}
+.buyticket{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding:10px 5px;
+    width: 50%;
+}
+.buyticket:hover{
+    color:black;
+    background-color: #CBCBCB;
+}
+.contact{
+    background-color: white;
+}
+.detail{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+}
+.CPE{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    line-height: 40px;
+}
+.NEM{
+    color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    border: gray;
+    width: 30%;
+    
+}
+.NAME_EMAIL{
+    border: 1px solid grey;
+    width:40%;
+    margin: 0 10px;
+    padding:10px 5px;
+}
+.MESANGE{
+    border: 1px solid grey;
+    width:88%;
+    margin: 10px;
+    padding:10px 5px;
+   
+}
+.send{
+    background-color:black;
+    color:white;
+    width: 20%;
+    padding:10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 71%; 
+    
+}
+.send:hover{
+    color:black;
+    background-color: #CBCBCB;
+}
+.map{
+    background-image: url("https://www.w3schools.com/w3images/map.jpg?fbclid=IwAR31EOFym-Tp1EfEUbKKRwtbB-tnFBSzbtj5aG2UTeZXDXcpNJ-ItkVjivA");
+    height:900px;
+    margin: 50px 0;
+}
+.icon{
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+}
+.iconEND:hover{
+    color:rgb(170, 167, 167);
+}
+.textEND {
+    text-align: center;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+    font-size: 15px;
+}
+.textEND a{
+    color:gray;
+}
